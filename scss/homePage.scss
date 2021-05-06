@@ -1,0 +1,234 @@
+.pageTopHero {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 209, 64, 0.8),
+      rgba(255, 209, 64, 0.8)
+    ),
+    url(../assests/images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  //   background-color: yellow;
+
+  .readMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 40px;
+    width: 121px;
+    background-color: #ee4367;
+    font-family: gillReg;
+  }
+}
+
+.lessImportant {
+  color: #ee4367;
+}
+
+.quoteBox {
+  font-family: gillReg;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 790px;
+  //   background-color: lightblue;
+}
+
+.homeEventBox {
+  width: 100%;
+  height: 320px;
+  background-color: #540d6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .homeEventTitle {
+    // align-items: flex-start;
+    font-family: gillReg;
+    color: white;
+  }
+
+  .homeEventGroup {
+    width: 1200px;
+    height: 125px;
+    // background-color: ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: gillReg;
+
+    .homeEventButton {
+      width: 205px;
+      height: 125px;
+      // background-color: rosybrown;
+      display: flex;
+      justify-content: space-between;
+      font-family: gillReg;
+
+      .homeDate {
+        width: 60px;
+        height: 60px;
+        background-color: #ee4367;
+        font-size: 12px;
+        color: white;
+        font-family: gillReg;
+      }
+
+      .homeDateInfo {
+        font-family: gillReg;
+        color: white;
+        font-size: 16px;
+        width: 130px;
+        height: 110px;
+        // background-color: royalblue;
+        flex-direction: column;
+        // justify-content: space-between;
+
+        .upperText {
+          width: 130px;
+          height: 40px;
+          margin-bottom: 10px;
+          font-family: gillReg;
+          color: white;
+          // background-color: saddlebrown;
+        }
+
+        .bottomText {
+          width: 130px;
+          font-family: gillReg;
+          height: 60px;
+          color: #ee4367;
+          // background-color: seagreen;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  height: 455px;
+  width: 100%;
+  background-color: #ee4367;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  .footerLogo {
+    height: 42px;
+    width: 110px;
+    // background-color: slateblue;
+    padding-top: 35px;
+    // margin: 0 auto;
+    background-image: url(../assests/images/logo/logo-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .footerInfo {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: gillReg;
+    color: white;
+
+    .footerTalk {
+      margin: 0 auto;
+      font-family: gillReg;
+      color: white;
+    }
+  }
+
+  .footerSub {
+    margin-top: 45px;
+    width: 696px;
+    height: 60px;
+    // background-color: slategrey;
+    display: flex;
+    font-family: gillReg;
+
+    .footerEnter {
+      font-family: gillReg;
+      width: 529px;
+      background-color: #f56b88;
+      opacity: 0.4;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .footerButton {
+      width: 167px;
+      height: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: gillReg;
+      color: #ee4367;
+    }
+  }
+
+  .socialMedia {
+    margin-top: 30px;
+    width: 156px;
+    height: 32px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .fb {
+      height: 31px;
+      width: 31px;
+      //   background-color: springgreen;
+      background-image: url(../assests/images/social-media/facebook.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .insta {
+      height: 31px;
+      width: 31px;
+      //   background-color: springgreen;
+      background-image: url(../assests/images/social-media/instagram.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .twit {
+      height: 31px;
+      width: 31px;
+      //   background-color: springgreen;
+      background-image: url(../assests/images/social-media/twitter.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  .copyright {
+    margin-top: 50px;
+    font-family: gillReg;
+    color: white;
+  }
+}

@@ -1,0 +1,38 @@
+.galleryPageOne {
+  margin: 0 auto;
+  .bigEventHeader {
+    margin: 0 auto;
+    max-width: 980px;
+    height: 400px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 209, 64, 0.8),
+        rgba(255, 209, 64, 0.8)
+      ),
+      url(../assests/images/gallery/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(255, 209, 64, 0.8);
+  }
+
+  .paraGroup {
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .paraGroupOne {
+      width: 470px;
+    }
+
+    .paraGroupTwo {
+      width: 470px;
+    }
+  }
+}

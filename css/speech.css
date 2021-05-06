@@ -1,0 +1,28 @@
+.galleryPageThree {
+  margin: 0 auto;
+}
+.galleryPageThree .bigEventHeader {
+  margin: 0 auto;
+  width: 980px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../assests/images/gallery/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+.galleryPageThree .paraGroup {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.galleryPageThree .paraGroup .paraGroupOne {
+  width: 470px;
+}
+.galleryPageThree .paraGroup .paraGroupTwo {
+  width: 470px;
+}

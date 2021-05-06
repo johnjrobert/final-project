@@ -1,0 +1,74 @@
+.blogOne {
+  max-width: 980px;
+  height: 300px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(238, 67, 103, 0.6),
+      rgba(238, 67, 103, 0.6)
+    ),
+    url(../assests/images/blog.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-family: gillLight;
+
+  .blogTopDateBox {
+    width: 155px;
+    height: 155px;
+    background-color: #ee4367;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: gillBold;
+    font-size: 40px;
+
+    .blogDateInfo {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.blogDateInfoTwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogDateInfoThree {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogDateInfoFour {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogDateInfoFive {
+  display: flex;
+  flex-direction: column;
+}
+
+.blogTextTitle {
+  color: #ee4367;
+  font-family: gillReg;
+}
+
+.blogTextOne {
+  margin-top: 30px;
+  margin: 0 auto;
+  max-width: 856px;
+}
+
+.blogTextTwo {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  max-width: 856px;
+}

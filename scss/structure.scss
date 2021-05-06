@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+  font-family: gillLight;
+}
+
+.bigEventHeader {
+  font-size: 140px;
+  text-shadow: 2px 2px #000000;
+  font-family: gillReg;
+  display: flex;
+  // padding-left: 50px;
+}
+
+.bigText {
+  font-size: 300px;
+}
+
+.funkyHeader {
+  display: flex;
+  align-items: baseline;
+
+  .bigText {
+    font-size: 200px;
+  }
+}
+
+@font-face {
+  font-family: gillLight;
+  src: url("fonts/GillSansLightItalic.otf");
+}
+
+@font-face {
+  font-family: gillBold;
+  src: url("fonts/GillSansBold.otf");
+}
+
+@font-face {
+  font-family: gillReg;
+  src: url("fonts/GillSan.otf");
+} ;
